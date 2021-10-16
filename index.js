@@ -13,7 +13,9 @@ makeSound(buttonInnerHTML);
 
 
 
-document.addEventListener("keydown", makeSound(event.key));
+document.addEventListener("keydown", function(event){
+  makeSound(event.key);
+});
 
 
 
